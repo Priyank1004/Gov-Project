@@ -27,7 +27,7 @@ const Login = () => {
         }
 
         try {
-            const url = "https://gov-project-api.vercel.app/login";
+            const url = "https://gov-project-api.vercel.app/auth/login";
 
             const response = await fetch(url, {
                 method: "POST",
